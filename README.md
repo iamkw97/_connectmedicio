@@ -1,6 +1,6 @@
 # 🏥 ConnectMedicio — Medical Association Internal Operations Portal
 
-> A unified web and mobile operations platform built for the Sri Lanka Medical Association (SLMA), digitizing internal workflows, reducing paperwork, and enabling members to manage their needs without physical visits to the head office.
+> A unified web and mobile operations platform built for the Medical Organization, digitizing internal workflows, reducing paperwork, and enabling members to manage their needs without physical visits to the head office.
 
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -12,7 +12,7 @@
 
 ## 📌 Overview
 
-SLMA Connect is a custom internal operations and member management platform developed for the **Sri Lanka Medical Association (SLMA)**. The system was built to eliminate the association's heavy reliance on physical paperwork and in-person head office visits by providing a centralized digital portal accessible via both web browser and mobile application.
+ConnectMedicio is a custom internal operations and member management platform developed for the **Medical Organization**. The system was built to eliminate the association's heavy reliance on physical paperwork and in-person head office visits by providing a centralized digital portal accessible via both web browser and mobile application.
 
 The platform serves three primary user groups — **Administrators**, **Management**, and **Doctors/Members** — each with tailored interfaces and access permissions. Members can now submit requests, access documents, track application statuses, and manage their profiles entirely from their phone or desktop, significantly reducing administrative overhead at the head office.
 
@@ -67,7 +67,7 @@ The platform serves three primary user groups — **Administrators**, **Manageme
 
 ## 🏗️ Architecture
 
-SLMA Connect is built on a **hybrid MVC + API architecture**. The web portal uses Laravel's Blade templating for server-rendered views, while the React Native mobile application consumes a RESTful API layer built into the same Laravel backend. A unified authentication system issues separate session tokens and API tokens based on access method.
+ConnectMedicio is built on a **hybrid MVC + API architecture**. The web portal uses Laravel's Blade templating for server-rendered views, while the React Native mobile application consumes a RESTful API layer built into the same Laravel backend. A unified authentication system issues separate session tokens and API tokens based on access method.
 
 **Key design principles:**
 - **Paperless workflow** — Every process that previously required physical forms or in-person visits is replicated digitally with full audit trails
@@ -80,7 +80,7 @@ SLMA Connect is built on a **hybrid MVC + API architecture**. The web portal use
 ## 📸 System Modules
 
 ```
-SLMA Connect
+ConnectMedicio
 ├── Authentication (Web Sessions + Mobile API Tokens)
 ├── Member Portal
 │   ├── Profile Management
@@ -108,7 +108,7 @@ SLMA Connect
 
 ## 💼 Business Impact
 
-Before SLMA Connect, SLMA members had to physically travel to the head office in Colombo to submit applications, update records, or follow up on requests — a significant burden for doctors working across the country. The platform achieved:
+Before ConnectMedicio, SLMA members had to physically travel to the head office in Colombo to submit applications, update records, or follow up on requests — a significant burden for doctors working across the country. The platform achieved:
 
 - **Eliminated unnecessary office visits** — Members can complete nearly all interactions digitally
 - **Reduced administrative backlog** — Centralized digital request queues replaced scattered paper piles
